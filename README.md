@@ -15,6 +15,9 @@ https://www.cryptohopper.com/website-widgets?widget=crypto-cards
 QR Code generated here:
 https://www.qrcode-monkey.com/
 
+Fun line drawings of my dog generated here:
+https://www.befunky.com/create/sketcher/
+
 ## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
