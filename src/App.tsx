@@ -53,7 +53,7 @@ function App() {
       <Toolbar sx={{padding: "0"}}>
         <img src={dogeLogo} width="25%" style={{maxWidth: "100px"}} />
         <Box>
-        <Typography variant={"h4"} component={"div"} m={1} sx={{ color: "white", textAlign: "right" }}>
+        <Typography variant={"h4"} component={"div"} m={1} sx={{ color: "white", textAlign: "right", fontWeight: "800", fontFamily: "Prata" }}>
           Doge Track
         </Typography>
         <Typography variant={"body2"} component={"div"} m={1} sx={{ color: "white", textAlign: "right" }}>
