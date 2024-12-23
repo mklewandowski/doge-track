@@ -78,7 +78,7 @@ function App() {
               <RedeemIcon sx={{fontSize: "50px"}} />
               <Box sx={{display: "flex", flexDirection: "column", alignItems: "flex-start", margin: "0 6px 0 6px"}}>
                 <Typography variant={"body1"} component={"div"} sx={{margin: "2px", textAlign: "left", fontWeight: "800", lineHeight: "1"}}>
-                  Merry Christmas!
+                  Merry Christmas, Josie!
                 </Typography>
                 <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1"}}>
                   You are the proud(ish) owner of 500 Dogecoins!
