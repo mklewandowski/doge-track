@@ -8,6 +8,13 @@ https://mklewandowski.github.io/doge-track/
 GitHub pages setup can be found here:
 https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
 
+## Credits
+Cryptocard created here:
+https://www.cryptohopper.com/website-widgets?widget=crypto-cards
+
+QR Code generated here:
+https://www.qrcode-monkey.com/
+
 ## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
