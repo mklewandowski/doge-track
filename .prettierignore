@@ -1,0 +1,14 @@
+node_modules
+public
+
+README.md
+package-lock.json
+package.json
+
+vite.config.ts
+tsconfig.node.json
+eslint.config.js
+
+# Ignore artifacts:
+build
+coverage
