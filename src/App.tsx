@@ -65,7 +65,7 @@ function App() {
         sx={{
           width: "100%",
           boxSizing: "border-box",
-          "&.MuiContainer-root": { maxWidth: "100%" },
+          "&.MuiContainer-root": { maxWidth: "100%", padding: "0" },
         }}
       >
       <Stack spacing={{ xs: 1, sm: 2, md: 4 }} margin={1} sx={{ width: "auto" }}>
@@ -80,8 +80,11 @@ function App() {
                 <Typography variant={"body1"} component={"div"} sx={{margin: "2px 2px 6px 2px", textAlign: "left", fontWeight: "800", lineHeight: "1"}}>
                   Merry Christmas, Josie!
                 </Typography>
-                <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1"}}>
-                  {`You are the proud(ish) owner of ${TOTAL_COINS} Dogecoins!`}
+                <Typography variant={"body2"} component={"div"} sx={{margin: "2px 2px 6px 2px", textAlign: "left", lineHeight: "1"}}>
+                  You are the proud(ish) owner of...
+                </Typography>
+                <Typography variant={"body1"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1.25", fontSize: "1.5em", fontWeight: "800", color: "ForestGreen"}}>
+                  <i>{`${TOTAL_COINS} Dogecoins!`}</i>
                 </Typography>
               </Box>
             </Box>
@@ -99,7 +102,7 @@ function App() {
                 <Typography variant={"body1"} component={"div"} sx={{margin: "2px 2px 6px 2px", textAlign: "left", fontWeight: "800", lineHeight: "1"}}>
                   What is Dogecoin?
                 </Typography>
-                <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1"}}>
+                <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1.25"}}>
                   A cryptocurrency like Bitcoin... only based on a dog meme and slightly dumber.
                 </Typography>
               </Box>
@@ -119,7 +122,7 @@ function App() {
                 <Typography variant={"body1"} component={"div"} sx={{margin: "2px 2px 6px 2px", textAlign: "left", fontWeight: "800", lineHeight: "1"}}>
                   Will I get rich?
                 </Typography>
-                <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1"}}>
+                <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1.25"}}>
                   No idea! I'm a dog! But you can see your current Dogecoin value below.
                 </Typography>
               </Box>
@@ -154,7 +157,7 @@ function App() {
                 <Typography variant={"body1"} component={"div"} sx={{margin: "2px 2px 6px 2px", textAlign: "left", fontWeight: "800", lineHeight: "1"}}>
                   How do I cash in my coins?
                 </Typography>
-                <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1"}}>
+                <Typography variant={"body2"} component={"div"} sx={{margin: "2px", textAlign: "left", lineHeight: "1.25"}}>
                   To get real money, you need to talk to the Big Cookie. I don't even have a bank account.
                 </Typography>
               </Box>
